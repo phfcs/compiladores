@@ -23,16 +23,15 @@
             {  
                 evaluator.clearStack();
                 RPN2 evaluator = new RPN2();
-                System.out.println("Enter a valid post-fix expression one token " +
-                                   "at a time with a space between each token (e.g. 5 4 + 3 2 1 - + *)");
-                System.out.println("Each token must be an integer or an operator (+,-,*,/)");
+                System.out.println("Insira os valores,");
+                System.out.println("Agora insira o sinal da operacao");
                 expression = keyboard.nextLine();
 
                 result = evaluator.evaluate(expression);
                 System.out.println();
-                System.out.println("That expression equals " + result);
+                System.out.println("O resultado é: " + result);
 
-                System.out.print("Evaluate another expression [Y/N]? ");
+                System.out.print("Fazer outra operação: [Y/N]? ");
                 again = keyboard.nextLine();
                 System.out.println();
             }
