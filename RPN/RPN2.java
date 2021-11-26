@@ -7,9 +7,9 @@
 
      public RPN2()
         {
-            stack = new Stack<>(); //creates stack 
+            stack = new Stack<>(); //cria a pilha
         }
-    void clearStack(){ //add clear stach method 
+    void clearStack(){ 
             stack.clear();
         }
      public static void main(String[] args)
