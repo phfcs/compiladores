@@ -1,0 +1,56 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch calcadora",
+            "request": "launch",
+            "mainClass": "calcadora",
+            "projectName": "compiladores_b107ec7d"
+        },
+        {
+            "type": "java",
+            "name": "Launch RPN2",
+            "request": "launch",
+            "mainClass": "RPN2",
+            "projectName": "compiladores_b107ec7d"
+        },
+        {
+            "type": "java",
+            "name": "Launch rpn",
+            "request": "launch",
+            "mainClass": "rpn",
+            "projectName": "compiladores_b107ec7d"
+        },
+        {
+            "type": "java",
+            "name": "Launch calc",
+            "request": "launch",
+            "mainClass": "calc",
+            "projectName": "compiladores_b107ec7d"
+        },
+        {
+            "name": "(gdb) Iniciar",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "insira o nome do programa, por exemplo ${workspaceFolder}/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/path/to/gdb",
+            "setupCommands": [
+                {
+                    "description": "Habilitar a reformatação automática para gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
